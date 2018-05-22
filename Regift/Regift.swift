@@ -299,7 +299,6 @@ public struct Regift {
         if let size = size {
             generator.maximumSize = size
         }
-        generator.maximumSize = CGSize(width: UIScreen.main.bounds.width/3, height: UIScreen.main.bounds.height/3)
         
         let tolerance = CMTimeMakeWithSeconds(Constants.Tolerance, Constants.TimeInterval)
         generator.requestedTimeToleranceBefore = tolerance
